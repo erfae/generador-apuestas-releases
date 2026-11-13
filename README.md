@@ -10,10 +10,12 @@ tu cuenta de Loterías y Apuestas del Estado desde la propia aplicación.
 
 | Versión | Instalador | Portable (sin instalar) |
 |---|---|---|
-| 2.8.0 | [GeneradorDeApuestas-2.8.0-Instalador.exe](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.0/GeneradorDeApuestas-2.8.0-Instalador.exe) | [Generador de apuestas-2.8.0-portable.zip](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.0/Generador.de.apuestas-2.8.0-portable.zip) |
+| 2.8.1 | [GeneradorDeApuestas-2.8.1-Instalador.exe](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.1/GeneradorDeApuestas-2.8.1-Instalador.exe) | [Generador de apuestas-2.8.1-portable.zip](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.1/Generador.de.apuestas-2.8.1-portable.zip) |
+| 2.8.1 (MSI) | [Generador de apuestas-2.8.1.msi](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.1/Generador.de.apuestas-2.8.1.msi) | |
 
 - **Instalador**: instala la aplicación en `Archivos de programa`, crea el acceso directo y
-  permite desinstalarla desde Windows.
+  permite desinstalarla desde Windows. Pide permisos de administrador.
+- **MSI**: se instala desde `Programas y características` y permite desinstalar desde ahí.
 - **Portable**: descomprime el zip y ejecuta `Generador de apuestas.exe`; no instala nada.
 
 ## Novedades de la 2.8.0
