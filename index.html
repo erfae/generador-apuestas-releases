@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Descargas · Generador de apuestas</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; color:#1b2430; background:#eef3fa; }
+  .wrap { max-width:860px; margin:0 auto; padding:36px 20px 60px; }
+  header { background:linear-gradient(135deg,#1b3a6b,#2d5aa0); color:#fff; border-radius:18px; padding:26px 28px; box-shadow:0 10px 30px rgba(27,58,107,.18); }
+  header h1 { margin:0 0 6px; font-size:26px; }
+  header p { margin:0; opacity:.9; }
+  h2 { font-size:18px; margin:30px 0 12px; color:#1b3a6b; }
+  .card { background:#fff; border:1px solid #d9e3f0; border-radius:14px; padding:18px 20px; box-shadow:0 2px 10px rgba(20,40,80,.05); }
+  .dl { display:flex; flex-wrap:wrap; gap:12px; margin-top:14px; }
+  .btn { display:inline-block; text-decoration:none; font-weight:600; font-size:15px; padding:12px 18px; border-radius:10px; color:#fff; background:#1e8845; }
+  .btn.sec { background:#1b3a6b; }
+  .btn:hover { filter:brightness(1.06); }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th,td { text-align:left; padding:9px 8px; border-bottom:1px solid #e8eef6; }
+  th { color:#1b3a6b; font-size:13px; text-transform:uppercase; letter-spacing:.03em; }
+  ul { margin:8px 0 0; padding-left:20px; }
+  li { margin:5px 0; }
+  .nota { font-size:13px; color:#5a6a7d; }
+  footer { margin-top:34px; font-size:13px; color:#5a6a7d; }
+  code { background:#eef3fa; padding:1px 5px; border-radius:5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Generador de apuestas</h1>
+    <p>Descargas oficiales para Windows &middot; versión 2.8.1</p>
+  </header>
+
+  <h2>Descargar</h2>
+  <div class="card">
+    <p style="margin:0 0 6px"><strong>Instalador (.exe)</strong> — instala la aplicación en <em>Archivos de programa</em>, crea el acceso directo y permite desinstalarla desde Windows. Pide permisos de administrador.</p>
+    <p style="margin:0 0 6px"><strong>MSI</strong> — se instala desde <em>Programas y características</em> y se desinstala desde ahí.</p>
+    <p style="margin:0"><strong>Portable (.zip)</strong> — descomprime y ejecuta <code>Generador de apuestas.exe</code>: no instala nada.</p>
+    <div class="dl">
+      <a class="btn" href="https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.1/GeneradorDeApuestas-2.8.1-Instalador.exe">Instalador (.exe)</a>
+      <a class="btn sec" href="https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.1/Generador.de.apuestas-2.8.1.msi">MSI</a>
+      <a class="btn sec" href="https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.1/Generador.de.apuestas-2.8.1-portable.zip">Portable (.zip)</a>
+    </div>
+    <p class="nota" style="margin-top:14px">Requiere Windows 10 o superior de 64 bits. El entorno de Java va incluido: no hay que instalar nada más.</p>
+  </div>
+
+  <h2>Qué incluye</h2>
+  <div class="card">
+    <ul>
+      <li>Genera apuestas de La Primitiva, Bonoloto, Euromillones, El Gordo, Lotería Nacional, Navidad y El Niño.</li>
+      <li><strong>Escaneo de boletos</strong>: lee el código QR del resguardo aunque la foto salga torcida o con brillo, y entiende el código de SELAE (combinación, reintegro y joker).</li>
+      <li><strong>Analizador de patrones</strong>: revisa los sorteos históricos y explica cómo decide la apuesta.</li>
+      <li><strong>Pantallas propias con los controles de la web</strong>: la pantalla de acceso y la tabla de apuestas se construyen con los campos y textos que usa SELAE.</li>
+      <li><strong>Aviso de premios</strong> al iniciar sesión, con el detalle y el total.</li>
+      <li>Comprobación de boletos contra <strong>13.915 sorteos</strong> históricos (Primitiva 3.799, Bonoloto 6.057, Euromillones 1.999, Gordo 1.060).</li>
+    </ul>
+  </div>
+
+  <h2>Versiones anteriores</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th>Versión</th><th>Instalador</th><th>Portable</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>2.8.0</td>
+          <td><a href="https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.0/GeneradorDeApuestas-2.8.0-Instalador.exe">.exe</a></td>
+          <td><a href="https://github.com/erfae/generador-apuestas-releases/releases/download/v2.8.0/Generador.de.apuestas-2.8.0-portable.zip">.zip</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="nota" style="margin-top:10px">Todas las versiones están en <a href="https://github.com/erfae/generador-apuestas-releases/releases">las releases del repositorio</a>.</p>
+  </div>
+
+  <footer>
+    Generador de apuestas &middot; Windows 10/11 64 bits &middot;
+    <a href="https://github.com/erfae/generador-apuestas-releases">Repositorio de descargas</a>
+  </footer>
+</div>
+</body>
+</html>
