@@ -10,6 +10,8 @@ tu cuenta de Loterías y Apuestas del Estado desde la propia aplicación.
 
 | Versión | Instalador | Portable (sin instalar) |
 |---|---|---|
+| 2.10.1 | [GeneradorDeApuestas-2.10.1-Instalador.exe](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.1/GeneradorDeApuestas-2.10.1-Instalador.exe) | [Generador de apuestas-2.10.1-portable.zip](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.1/Generador_de_apuestas-2.10.1-portable.zip) |
+| 2.10.1 (MSI) | [Generador de apuestas-2.10.1.msi](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.1/Generador_de_apuestas-2.10.1.msi) | |
 | 2.10.0 | [GeneradorDeApuestas-2.10.0-Instalador.exe](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.0/GeneradorDeApuestas-2.10.0-Instalador.exe) | [Generador de apuestas-2.10.0-portable.zip](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.0/Generador_de_apuestas-2.10.0-portable.zip) |
 | 2.10.0 (MSI) | [Generador de apuestas-2.10.0.msi](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.0/Generador_de_apuestas-2.10.0.msi) | |
 | 2.9.0 | [GeneradorDeApuestas-2.9.0-Instalador.exe](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.9.0/GeneradorDeApuestas-2.9.0-Instalador.exe) | [Generador de apuestas-2.9.0-portable.zip](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.9.0/Generador.de.apuestas-2.9.0-portable.zip) |
@@ -19,6 +21,12 @@ tu cuenta de Loterías y Apuestas del Estado desde la propia aplicación.
   permite desinstalarla desde Windows. Pide permisos de administrador.
 - **MSI**: se instala desde `Programas y características` y permite desinstalar desde ahí.
 - **Portable**: descomprime el zip y ejecuta `Generador de apuestas.exe`; no instala nada.
+
+## Novedades de la 2.10.1
+
+- **La IA elige la jugada final**: el motor de calculo propone las jugadas posibles con sus
+  probabilidades reales y el modelo de lenguaje elige una y explica el porque.
+- Arreglado el cuelgue al abrir dos veces la misma pantalla; ahora los errores se muestran.
 
 ## Novedades de la 2.10.0
 
