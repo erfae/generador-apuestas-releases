@@ -1,5 +1,14 @@
 # Generador de apuestas — Descargas
 
+## Version 2.10.2
+
+IA local que escribe los numeros desde el historico real, multiples completas y capturas originales de SELAE.
+
+- [Instalador EXE](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.2/GeneradorDeApuestas-2.10.2-Instalador.exe)
+- [MSI](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.2/Generador_de_apuestas-2.10.2.msi)
+- [Portable](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.10.2/Generador_de_apuestas-2.10.2-portable.zip)
+
+
 Descargas oficiales del **Generador de apuestas** para Windows.
 
 Genera apuestas de La Primitiva, Bonoloto, Euromillones, El Gordo, Lotería Nacional,
