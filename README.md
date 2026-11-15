@@ -1,5 +1,14 @@
 # Generador de apuestas — Descargas
 
+## Version 2.11.1
+
+Agente IA local que analiza el historico y decide las combinaciones; nueva interfaz, botes oficiales y acceso con SMS y recuerdo protegido por Windows.
+
+- [Instalador EXE](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.11.1/GeneradorDeApuestas-2.11.1-Instalador.exe)
+- [MSI](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.11.1/Generador_de_apuestas-2.11.1.msi)
+- [Portable](https://github.com/erfae/generador-apuestas-releases/releases/download/v2.11.1/Generador_de_apuestas-2.11.1-portable.zip)
+
+
 ## Version 2.11.0
 
 Agente IA local que analiza el historico y decide las combinaciones; nueva interfaz, botes oficiales y acceso con SMS y recuerdo protegido por Windows.
